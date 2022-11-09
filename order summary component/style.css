@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap'); 
+
+:root {
+    --Paleblue: hsl(225, 100%, 94%);
+    --Brightblue: hsl(245, 75%, 52%);
+    --Verypaleblue: hsl(225, 100%, 98%);
+    --Desaturatedblue: hsl(224, 23%, 55%);
+    --Darkblue: hsl(223, 47%, 23%);
+    --white:white;
+
+    --fontweight:500;
+    --fontweight:700;
+    --fontweight:900;
+
+    --redhat: 'Red Hat Display', sans-serif;
+}
+
+.darkblue{
+    color: var(--Darkblue);
+}
+
+.fot-wgt-700{
+    font-weight: 700;
+}
+
+.fot-wgt-900{
+    font-weight: 900;
+} 
+
+.flex{
+    display: flex;
+}
+
+.margin{
+    margin: 1rem;
+}
+
+.des-blue{
+    color: var(--Desaturatedblue);
+}
+
+button,.change-btn{
+    cursor: pointer;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('/images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: var(--Paleblue);
+    font-family: var(--redhat)
+}
+
+article{
+    max-width: 21.875rem;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.hero img{
+    display: block;
+    width: 100%;
+}
+
+.heading{
+    margin: 0.875rem 0rem;
+}
+
+.text{
+    font-size: 0.875rem;
+}
+
+.text-content{
+    background-color: var(--white);
+    padding: 1rem;
+    text-align: center;
+}
+
+.price-content{
+    padding: 0rem 1rem;
+    display: grid;
+    grid-template-columns: 1fr 4.5fr;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem ;
+    border-radius: 0.5rem;
+    background-color: var(--Verypaleblue);
+
+}
+.price-content img{
+    width: 2.5rem;
+}
+
+.pricing{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plan-price{
+    margin-top: 0.25rem;
+}
+
+.change-btn{
+    color: var(--Brightblue);
+    text-decoration: underline;
+}
+
+.buttons{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1.75rem;
+}
+
+.proceed-btn{
+    color: var(--white);
+    background-color: var(--Brightblue);
+    border: none;
+    padding: 0.75rem 5rem;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 10px grey;
+}
+.proceed-btn:hover{
+    transition: background-color 0.5s ease;
+    background-color: var(--Darkblue);
+}
+
+.cancel-btn{
+    border: none;
+    background-color: var(--white);
+    margin: 1rem 0rem;
+}
+.cancel-btn:hover{
+    transition: background-color 0.3s ease;
+    color: darkgrey;
+}
+
+@media  (max-width:21.875rem) {
+    body{
+        font-size: 12px;
+    }
+}
