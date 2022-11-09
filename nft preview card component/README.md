@@ -1,5 +1,4 @@
-# Front-end Mentor
-- nft Preview Card
+# Front-end Mentor - nft preview component
 
 ## Built With
 - HTML ,CSS, Flexbox
@@ -7,5 +6,6 @@
 ## Screenshot
 ![](screenshot/screenshot.png)
 
- ## Live URL
-- Netlify - [nft preview card]('https://nftpreviewcard1182.netlify.app/')
+ ## Links
+ - Live Site URL:
+('https://nftpreviewcard1182.netlify.app/')
