@@ -1,4 +1,4 @@
-# Front-end Mentor - nft preview component
+# Front-end Mentor - nft preview card component
 
 ## Built With
 - HTML ,CSS, Flexbox
