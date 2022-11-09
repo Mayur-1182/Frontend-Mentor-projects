@@ -1,7 +1,7 @@
 # Frontend Mentor - Interactive rating component
 
 ### Screenshot
-![](/screenshot/screenshot.png)
+![](screenshot/screenshot.png)
 
 ### Links
 -Live Site URL:
