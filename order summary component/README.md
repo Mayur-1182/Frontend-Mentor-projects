@@ -1,4 +1,4 @@
-# Frontend Mentor - Order Summary Componet_
+# Frontend Mentor - Order Summary Componet
 
 ## Built With
 - Semantic HTML5
