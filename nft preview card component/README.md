@@ -5,7 +5,7 @@
 - HTML ,CSS, Flexbox
 
 ## Screenshot
- ![](/screenshot/screenshot.png)
+![](screenshot/screenshot.png)
 
  ## Live URL
 - Netlify - [nft preview card]('https://nftpreviewcard1182.netlify.app/')
