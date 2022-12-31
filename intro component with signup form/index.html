@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>intro component with signup form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/images/favicon-32x32.png">
+    <script src="https://kit.fontawesome.com/edf0f11d12.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+
+            <div class="intro-section">
+                <div class="intro-heading">
+                    <h2>Learn to code by watching others</h2>
+                </div>
+                <div class="intro-description">
+                    <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+                        but understanding how developers think is invaluable.</p>
+                </div>
+            </div>
+
+            <div class="form-section">
+
+                <div class="free-trial">
+                    <p><span>Try it free 7 days</span> then $20/mo. thereafter</p>
+                </div>
+
+
+
+                <!-- form validation -->
+
+
+
+                <div class="form">
+                    <form action="yes" class="main-form">
+
+                        <div class="fname-section  section ">
+                            <input type="text" placeholder="First Name" id="first-name">
+                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-exclamation-circle"></i>
+                            <small class="small">Error Message</small>
+                        </div>
+
+                        <div class="lname-section  section ">
+                            <input type="text" placeholder="Last Name" id="last-name">
+                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-exclamation-circle"></i>
+                            <small class="small">Error Message</small>
+                           
+                        </div>
+
+                        <div class="email-section  section  ">
+                            <input type="email" placeholder="Email Address" id="email">
+                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-exclamation-circle"></i>
+                            <small class="small">Error Message</small>
+                        </div>
+
+                        <div class="password-section  section  ">
+                            <input type="password" placeholder="Password" id="password">
+                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-exclamation-circle"></i>
+                            <small class="small">Error Message</small>
+                        </div>
+
+                        <button class="claim-free-trial">Claim your free trial</button>
+                    </form>
+
+
+                    <div class="terms-condition">
+                        By clicking the button, you are agreeing to our
+                        <span>Terms and Services</span>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </main>
+</body>
+<script src="script.js"></script>
+
+</html>
